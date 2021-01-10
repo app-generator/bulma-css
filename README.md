@@ -1,11 +1,13 @@
 
-# Bulma CSS
+# [Bulma CSS](https://bulma-css.com/)
 
 > Open-source project - provided by [AppSeed](https://appseed.us) under [EULA](./LICENSE.md) license.
 
+- [Bulma CSS Components](https://components.bulma-css.com/) - LIVE Demo
+
 <br />
 
-Initially coded by [Charlie Rabiller](https://www.linkedin.com/in/crabiller/), the creator of [Tailwind-kit](https://www.tailwind-kit.com/). 
+**Initially coded by [Charlie Rabiller](https://www.linkedin.com/in/crabiller/)** - the creator of [Tailwind-kit](https://www.tailwind-kit.com/). 
 
 <br />
   
@@ -25,7 +27,7 @@ Bulma CSS is Free and Open Source. It does not change or add any CSS to the alre
 ## CSS Components
   
 
-Bulma Css  comes with 18+ Fully Coded CSS elements and layouts.
+Bulma Css comes with 18+ Fully Coded CSS elements and layouts.
 
  
 

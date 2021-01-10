@@ -1,4 +1,4 @@
-# EULA (End-User License Agreement)
+## EULA (End-User License Agreement)
 
 Copyright (c) 2019 - present [AppSeed](http://appseed.us/)
 
@@ -23,6 +23,7 @@ Copyright (c) 2019 - present [AppSeed](http://appseed.us/)
 <br />
 
 All components provided by this open-source project can be used for unlimited hobby and commercial projects. 
+
 Deploy LIVE this project without written permission from AppSeed is forbidden. 
 
 <br />
