@@ -45,7 +45,7 @@ const FooterPage: FC = () => {
       <ComponentLayout
         vertical={true}
         title="Light"
-        element={<FooterLight links={links} />}
+        element={<FooterLight />}
         component={FooterLight}
       />
     </AppLayout>
