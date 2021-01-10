@@ -257,7 +257,36 @@ Components are classics React functional component.
 If you want that your component have a dark version, you need to declare a props `isDark` which is a boolean, not mandatory.
 Then you need to declare the classes used for each version (light/dark) and use it on the code in function of the `isDark` props. Ex : 
 
-![Bulma-css](public/component.png)
+```JSX
+import React from "react";
+
+interface Props {
+  label: string;
+  isDark?: boolean;
+  isLoading?: boolean;
+}
+const theme = {
+  dark: {
+    background: "is-dark",
+  },
+  light: {
+    background: "is-primary",
+  },
+};
+const Button = ({ label, isDark, isLoading }: Props) => {
+  const mode = isDark ? "dark" : "light";
+  return (
+    <button
+      className={`button ${theme[mode].background} ${
+        isLoading ? "is-loading" : ""
+      }`}
+    >
+      {label}
+    </button>
+  );
+};
+export default Button;
+```
 
 
 ### Import the component
@@ -293,7 +322,34 @@ To enabled all feature preview like live edition, dark mode, ... you need to pas
 
 Example of the `index.tsx` file of the **team** category :
 
-![Bulma-css](public/category.png)
+```JSX
+import React, { FC } from "react";
+import AppLayout from "../../../components/layout/AppLayout";
+import SectionHeader from "../../../components/site/header/SectionHeader";
+import ComponentLayout from "../../../components/layout/ComponentLayout";
+import SimpleTeam from "../../../components/kit/components/pagesection/team/SimpleTeam";
+
+const TeamPage: FC = () => {
+  return (
+    <AppLayout
+      title="Teams section free Bulma components"
+      desc="Teams and more components for Bulma css"
+    >
+      <SectionHeader title="Team" />
+      <ComponentLayout
+        title="Simple"
+        hasDarkMode={true}
+        containerWidth={3}
+        element={<SimpleTeam />}
+        component={SimpleTeam}
+      />
+    </AppLayout>
+  );
+};
+
+export default TeamPage;
+
+```
 
 
 This render on http://localhost:3000/components/team
