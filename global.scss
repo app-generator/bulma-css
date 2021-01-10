@@ -1,0 +1,56 @@
+@import "~bulma/sass/utilities/initial-variables.sass";
+@import "~bulma/bulma.sass";
+
+/**
+* Home page perspective
+*/
+.perspective {
+  transform: perspective(1500px) rotateY(-5deg) rotateX(25deg) rotate(20deg)
+    translateY(-150px) !important;
+  top: -16rem !important;
+  position: absolute;
+  z-index: 50;
+  opacity: 0.7;
+  @include until($desktop) {
+    z-index: 0;
+    border-bottom: 1px solid green;
+    opacity: 0.1;
+    left: -20rem !important;
+  }
+}
+/**
+* Override Bulma 'tags' on live editor
+*/
+.live-editor .tag:not(body) {
+  background-color: transparent;
+  border-radius: 0;
+  color: inherit;
+  display: inline-block;
+  font-size: inherit;
+  height: inherit;
+  justify-content: inherit;
+  line-height: inherit;
+  padding-left: inherit;
+  padding-right: inherit;
+  white-space: inherit;
+}
+
+/**
+* Custom helper for site operation (not used in components)
+*/
+.absolute {
+  position: absolute;
+}
+.text-condensed {
+  line-height: 1 !important;
+}
+.underline {
+  text-decoration: underline;
+}
+.m-auto {
+  margin: auto;
+}
+.my-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
