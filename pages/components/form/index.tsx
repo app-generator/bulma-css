@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import AppLayout from "../../../components/layout/AppLayout";
 import ComponentLayout from "../../../components/layout/ComponentLayout";
 import SectionHeader from "../../../components/site/header/SectionHeader";
-import SignIn from "../../../components/kit/components/form/layout/SignIn";
+import Signin from "../../../components/kit/components/form/layout/Signin";
 
 const TogglePage: FC = () => {
   return (
@@ -16,8 +16,8 @@ const TogglePage: FC = () => {
         containerWidth={4}
         title="Login"
         hasDarkMode={true}
-        element={<SignIn />}
-        component={SignIn}
+        element={<Signin />}
+        component={Signin}
       />
     </AppLayout>
   );
