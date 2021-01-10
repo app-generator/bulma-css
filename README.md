@@ -1,6 +1,13 @@
 
-# Bulma-css
+# Bulma CSS
 
+> Open-source project - provided by [AppSeed](https://appseed.us) under [EULA](./LICENSE.md) license.
+
+<br />
+
+Initially coded by [Charlie Rabiller](https://www.linkedin.com/in/crabiller/), the creator of [Tailwind-kit](https://www.tailwind-kit.com/). 
+
+<br />
   
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) ![GitHub issues](https://img.shields.io/github/issues/app-generator/bulma-css) <a  href="https://components.bulma-css.com/"  target="_blank">
@@ -10,20 +17,17 @@
 </a>
 
 ### A beautiful and large components kit for Bulma
-
   
 
-Bulma-css is Free and Open Source. It does not change or add any CSS to the already one from Bulma Framework. It features multiple HTML elements that can be used in all web projects who's use Bulma CSS.
-
+Bulma CSS is Free and Open Source. It does not change or add any CSS to the already one from Bulma Framework. It features multiple HTML elements that can be used in all web projects who's use Bulma CSS.
   
 
 ## CSS Components
-
   
 
-Bulma-css comes with 18+ Fully Coded CSS elements and layouts.
+Bulma Css  comes with 18+ Fully Coded CSS elements and layouts.
 
-  
+ 
 
 ## Live code editor
 
@@ -33,30 +37,22 @@ Bulma-css comes with 18+ Fully Coded CSS elements and layouts.
 Bulma-css include a live code editor to change the components code and see in live the modification.
 
   
-  
 
 ## Dark mode
 
 ![Bulma-css](public/demo.gif)
 
-  
+ 
 
 Most components are implemented with a light and dark version.
-
-
-  
   
 
 ## Documentation
 
-The documentation for the Bulma-css is hosted at our <a  href="[https://components.bulma-css.com/](https://components.bulma-css.com/started"  target="_blank">website</a>.
+For documentation please access [Bulma Components](https://components.bulma-css.com/started).
 
-  
-  
-  
 
 ## Browser Support
-
   
 
 At present, we officially aim to support the last two versions of the following browsers:
@@ -381,8 +377,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Licensing
 
-  
+- Licensed under [EULA](./LICENSE.md).
 
-  
-
-- Licensed under <a  href="https://opensource.org/licenses/MIT"  target="_blank">MIT</a>
+---
+Bulma CSS Components - Open-Source project provided by [AppSeed](https://appseed.us).
