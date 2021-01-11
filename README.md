@@ -185,7 +185,7 @@ A quick look at the important repo files and directories you'll see in a the pro
 
 1.  **`global.scss`**: This scss file contain all the 'custom' css use for the app. This file is not used for bulma components and not override any bulma classes.  
 
-1.  **`LICENSE`**: Bulma-css is licensed under the MIT license.
+1.  **`LICENSE`**: Bulma-css is licensed under [EULA](./LICENSE.md).
 
 1.  **`next.config.json`**: This file contain all the nextJS configuration. Here we use the default one.
 
