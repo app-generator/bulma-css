@@ -1,2 +1,6 @@
 node_modules
 build
+out
+deploy.js
+yarn.lock
+yarn.lock
